@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDWebImage'
-  s.version          = '0.2.0-sd'
+  s.version          = '0.2.1-sd'
   s.summary          = 'A short description of SDWebImage.'
 
 # This description is used to generate tags and improve search results.
