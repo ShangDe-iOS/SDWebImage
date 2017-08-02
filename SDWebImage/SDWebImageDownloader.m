@@ -82,7 +82,7 @@
         _HTTPHeaders = [@{@"Accept": @"image/*;q=0.8"} mutableCopy];
 #endif
         _barrierQueue = dispatch_queue_create("com.hackemist.SDWebImageDownloaderBarrierQueue", DISPATCH_QUEUE_CONCURRENT);
-        _downloadTimeout = 8.0;
+        _downloadTimeout = 6.0;
 
         sessionConfiguration.timeoutIntervalForRequest = _downloadTimeout;
 
