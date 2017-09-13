@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDWebImage'
-  s.version          = '0.3.1-sd'
+  s.version          = '0.4.0-sd'
   s.summary          = 'A short description of SDWebImage.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xinyapeng' => 'xinyapeng@baijiahulian.com' }
-  s.source           = { :git => 'https://github.com/baijia/SDWebImage.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ShangDe-iOS/SDWebImage.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
